@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html {
+		/*background: url(seelight.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;*/
+		padding:0;
+		margin:0;	
+	}
+	body{
+		background:#272727;
+		font-family:'Open Sans';
+		padding:0;
+		margin:0;	
+		text-align:center;
+	}
+	header{
+		width:100%;
+	}
+	a{text-decoration:none;}
+	article{
+		min-width:1000px;
+	}
+	nav{
+		background:#272727;
+		width:100%;
+		padding:5px 0;
+		min-width:260px;
+		position:fixed;
+		z-index:900;
+		margin-bottom:100px;
+	}
+	nav ul{
+		list-style-type:none;
+		margin:0 auto;
+	}
+	nav ul li{
+		display:inline-block;
+		margin:0 20px;
+		font-size:14px;
+	}
+	nav a, h1{
+		color:#FFF;
+	}
+	#catface{
+		width:100%;
+		min-width:260px;
+		height:250px;
+		background:url(supbanner.png) center center #FFFFFF;
+	}
+	h1{	
+		font-size:36px;
+		margin:20px 0;
+	}
+	h2{
+		font-size:18px;
+		color:#DDD;
+		margin:0 100px;
+	}
+	h1,h2{
+		font-weight:300;}
+	#banner{
+		background:url(promobanner.png);
+		width:1000px;
+		height:160px;
+		margin:20px auto;
+	}
+
+	footer{
+		background:#FFF;
+	}
+	#Social{
+		text-align:left;
+	}
+	/*	Goal Info	*/
+	#goal p{
+		margin:0;
+		font-weight:300;
+		color:#FFF;
+	}
+	#need,#fortymillions{
+		font-size:80px;
+	}
+	#fortymillions{
+		color:#BFFFBF!important;
+	}
+	#campaign{
+		margin:20px 0;
+		color:#CCC;
+	}
+	#sponsorus{
+		font-size:30px;
+	}
+	#sponsorus a{
+		color:#FFF;
+		margin:0 20px;
+	}
+	/*	Info	*/
+	.infocontainer{
+		margin:50px auto;
+		width:1000px;
+		overflow: hidden;
+		font-weight:300;
+	}
+	.infocontainer .left{
+		width:500px;
+		float:left;
+	}
+	.infocontainer .right{
+		width:500px;
+		float:right;
+	}
+	.infotit{
+		margin:0;
+		font-size:36px;
+		color:#FFF;
+	}
+	.info{
+		text-align:justify;
+		color:#DDD;
+	}

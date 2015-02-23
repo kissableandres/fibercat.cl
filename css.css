@@ -1,0 +1,78 @@
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+h1, h2{
+	margin: 0;
+	text-align: center;
+}
+h1{
+	color:#009FE3;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: 120px;
+}
+h2{
+	color:#AAA;
+	font-size: 20px;
+	font-weight: 400;
+	margin:auto 100px;
+}
+
+.u-separator20{		margin-top: 20px;}
+.u-separator40{		margin-top: 40px;}
+.u-separator60{		margin-top: 60px;}
+.u-separator80{		margin-top: 80px;}
+.u-separator100{	margin-top: 100px;}
+.u-separator150{	margin-top: 150px;}
+.u-separator200{	margin-top: 200px;}
+.u-separator300{	margin-top: 300px;}
+
+.Menu{
+	background:#000;
+	font-size: 18px;
+	font-weight: 400;
+	height:30px;
+	margin-top:0;
+	min-width:1100px;
+}
+.Menu-buttonContainer{
+	display: inline-block;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+.Menu-button{
+	display: inline-block;
+
+}
+.Menu-logoContainer{
+	display: inline-block;
+}
+.Menu-Link{
+	color:#AAA;
+	margin:0 10px;
+	text-decoration: none;
+}
+.Menu-Link:hover{
+	color:#95DCFF;
+}
+
+.Benefits, .Cities{
+	text-align:center;
+}
+.Benefits-imageContainer, .Cities-imageContainer{
+	display: inline-block;
+	margin: 0;
+	max-width:200px;
+	padding: 0;
+}
+.Benefits-imageCaption, .Cities-imageCaption{
+	color:#009FE3;	
+}
+.Cities{
+	min-width:1100px;
+}
